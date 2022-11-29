@@ -40,5 +40,5 @@ firstNode = firstNode->next;
 }
 firstNode->next = newNode;
 newNode->next = NULL;
-return (newNode)
+return (newNode);
 }
